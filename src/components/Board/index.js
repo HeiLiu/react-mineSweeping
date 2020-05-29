@@ -8,11 +8,7 @@ export default class Board extends PureComponent {
     const { className, style, children, ...props } = this.props;
     return (
       <div className={styles.component}>
-        <ul
-          {...props}
-          className={classnames(className)}
-          style={style}
-        >
+        <ul {...props} className={classnames(className)} style={style}>
           {children} ChessBoard11
         </ul>
       </div>

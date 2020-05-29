@@ -6,6 +6,7 @@ import Board from 'components/Board';
 import Chess from 'components/Chess';
 
 class App extends React.Component {
+
   render() {
     return (
       <>

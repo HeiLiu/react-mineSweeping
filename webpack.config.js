@@ -73,6 +73,7 @@ let config = {
   ],
   optimization: {
     minimizer: [new OptimizaCssAssetsWebpackPlugin()],
+    // minimize: true,
   },
 };
 
