@@ -27,6 +27,7 @@ let config = {
   //   'react-dom': 'react-dom',
   // }, // 不要遵循/打包这些模块，而是在运行时从环境中请求他们
   resolve: {
+    // 项目全局范围内 重命名一些常用路径
     alias: {
       components: path.resolve(__dirname, 'src/components/'),
     },
